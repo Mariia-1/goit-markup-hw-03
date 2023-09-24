@@ -1,0 +1,189 @@
+ody {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*=======HEADER.LOGO.NAVIGATION============*/
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span-header {
+  color: #2e2f42;
+}
+.VNIMATELNO .header-menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-contacs-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.header-contacs-link:hover,
+.header-contacs-link:focus {
+  color: #404bbf;
+}
+
+/*========MAIN PART.BUTTON=============*/
+
+.headline {
+  background-color: #2e2f42;
+}
+
+.headline-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.headline-order-btn {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.headline-order-btn {
+  cursor: pointer;
+}
+
+.headline-order-btn:hover,
+.headline-order-btn:focus {
+  background-color: #404bbf;
+}
+
+/* =======SECTION BENEFITS========== */
+
+.benefits-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ======SECTION TEAM=========*/
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-subtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*=========ALL VISIBLE h2========*/
+
+.subject {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/*===========SECTION PORTFOLLIO=====*/
+
+.portfolio-title {
+  background-color: #ffffff;
+}
+
+.portfolio-subtitle {
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*=========FOOTER.LOGO============*/
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
