@@ -131,8 +131,8 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /*max-width: 496px;*/
-  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 48px;
 }
 
 .headline-order-btn {
@@ -289,7 +289,7 @@ img {
 .container-portfolio-text {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
