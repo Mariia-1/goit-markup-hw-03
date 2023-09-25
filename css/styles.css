@@ -122,7 +122,7 @@ img {
 
 .headline {
   background-color: #2e2f42;
-  padding: 188px 472px;
+  padding: 188px 0;
 }
 .headline-title {
   color: #fff;
@@ -132,7 +132,8 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 48px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .headline-order-btn {
@@ -180,7 +181,6 @@ img {
 
 .benefits-list {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 
@@ -239,7 +239,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -248,7 +247,6 @@ img {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  padding-bottom: 32px;
 }
 
 /*=========ALL VISIBLE h2========*/
