@@ -1,4 +1,4 @@
-ody {
+body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -13,21 +13,77 @@ a {
   text-decoration: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*=======HEADER.LOGO.NAVIGATION============*/
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 76px;
+}
+
 .header-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .logo-span-header {
   color: #2e2f42;
 }
-.VNIMATELNO .header-menu-link {
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-item {
+  display: inline-block;
+}
+
+.header-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -41,6 +97,11 @@ a {
 
 .header-address {
   font-style: normal;
+}
+
+.header-contacs-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-contacs-link {
@@ -59,6 +120,9 @@ a {
 
 .headline {
   background-color: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
+  text-align: center;
 }
 
 .headline-title {
@@ -68,6 +132,8 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto 48px;
+  max-width: 496px;
 }
 
 .headline-order-btn {
@@ -78,9 +144,11 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-
-.headline-order-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
@@ -91,12 +159,36 @@ a {
 
 /* =======SECTION BENEFITS========== */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefits-list {
+  display: flex;
+  padding: 120px 0;
+  gap: 24px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+
 .benefits-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -108,10 +200,26 @@ a {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 156px;
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 24 * 3) / 4);
 }
 
 .team-subtitle {
@@ -121,12 +229,15 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-text {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
+  padding-bottom: 32px;
 }
 
 /*=========ALL VISIBLE h2========*/
@@ -143,8 +254,29 @@ a {
 
 /*===========SECTION PORTFOLLIO=====*/
 
+.portfolio {
+  padding: 120px 156px;
+}
+
 .portfolio-title {
   background-color: #ffffff;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: calc((100% - 24 * 2) / 3);
+}
+
+.container-portfolio-text {
+  padding: 0 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .portfolio-subtitle {
@@ -154,6 +286,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -166,6 +299,8 @@ a {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -176,6 +311,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span-footer {
@@ -186,4 +323,5 @@ a {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
+  max-width: 264px;
 }
